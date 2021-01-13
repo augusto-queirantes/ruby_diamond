@@ -2,8 +2,8 @@
 
 class Line
   class << self
-    def build(input_letter, current_letter)
-      @input_letter_ascii_code = input_letter.ord
+    def build(input, current_letter)
+      @input_ascii_code = input.ord
       @current_letter_ascii_code = current_letter.ord
 
       "#{outside_underlines}#{inside_content}#{outside_underlines}\n"
@@ -12,7 +12,7 @@ class Line
     private
 
     def outside_underlines
-      number_of_underlines = @input_letter_ascii_code - @current_letter_ascii_code
+      number_of_underlines = @input_ascii_code - @current_letter_ascii_code
 
       build_underlines(number_of_underlines)
     end
