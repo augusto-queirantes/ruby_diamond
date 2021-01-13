@@ -78,6 +78,7 @@ Examples
 
 - `bundle exec rspec` to run tests
 - `bundle exec rubocop` to run linter
+- `ruby command_line.rb <letter>` to print the diamond in your terminal
 
 ## Code Documentation
 
