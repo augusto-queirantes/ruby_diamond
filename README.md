@@ -1,7 +1,14 @@
 # Diamond Kata
 
-! [Specs]&nbsp;(https://github.com/augusto-queirantes/ruby_diamond/workflows/Specs/badge.svg)
-! [Linter]&nbsp;(https://github.com/augusto-queirantes/ruby_diamond/workflows/Linter/badge.svg)
+<p align="left">
+  <a href="https://github.com/augusto-queirantes/ruby_diamond/actions">
+    <img alt="spec status" src="https://github.com/augusto-queirantes/ruby_diamond/workflows/Specs/badge.svg">
+  </a>
+
+  <a href="https://github.com/augusto-queirantes/ruby_diamond/actions">
+    <img alt="linter status" src="https://github.com/augusto-queirantes/ruby_diamond/workflows/Linter/badge.svg">
+  </a>
+</p>
 
 ## Navigation
 
