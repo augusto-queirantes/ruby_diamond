@@ -2,6 +2,8 @@
 
 class Diamond
   def build(input)
+    InputValidator.validate!(input)
+
     letter_instance = Letter.new(input)
     board_dimension = Board.calculate_dimension(input)
     response = ''

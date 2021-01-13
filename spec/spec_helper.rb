@@ -20,6 +20,7 @@ require_relative '../lib/diamond'
 require_relative '../lib/line'
 require_relative '../lib/letter'
 require_relative '../lib/board'
+require_relative '../lib/input_validator'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
