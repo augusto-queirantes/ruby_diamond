@@ -1,5 +1,8 @@
 # Diamond Kata
 
+! [Specs]&nbsp;(https://github.com/augusto-queirantes/ruby_diamond/workflows/Specs/badge.svg)
+! [Linter]&nbsp;(https://github.com/augusto-queirantes/ruby_diamond/workflows/Linter/badge.svg)
+
 ## Navigation
 
 - [Problem](#problem)
