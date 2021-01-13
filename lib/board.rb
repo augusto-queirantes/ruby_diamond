@@ -8,8 +8,4 @@ class Board
 
     input_ascii_index + (input_ascii_index + 1)
   end
-
-  private
-
-  attr_reader :input_letter
 end
