@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 class Line
   def initialize(input_letter, current_letter)
     @input_letter_ascii_code = input_letter.ord
     @current_letter_ascii_code = current_letter.ord
-    @first_letter_ascii_code = "A".ord
+    @first_letter_ascii_code = 'A'.ord
   end
 
   def build
@@ -36,10 +38,11 @@ class Line
     letter_position = current_letter_ascii_code - first_letter_ascii_code
 
     return 0 if letter_position.zero?
-    return (letter_position + (letter_position - 1))
+
+    (letter_position + (letter_position - 1))
   end
 
   def build_underlines(number_of_underlines)
-    "_" * number_of_underlines
+    '_' * number_of_underlines
   end
 end

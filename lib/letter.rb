@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Letter
   def initialize(input_letter)
     @letter_ascii_code = 64
