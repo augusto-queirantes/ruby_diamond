@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
 RSpec.describe Line do
-  let(:instance) { described_class.new(input_letter, current_letter) }
-
   describe '#build' do
-    subject { instance.build }
+    subject { described_class.build(input_letter, current_letter) }
 
     context 'when input letter is an A character' do
       let(:input_letter) { 'A' }

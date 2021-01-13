@@ -7,8 +7,7 @@ class Diamond
     response = ''
 
     board_dimension.times do |_index|
-      line_instance = Line.new(input, letter_instance.next)
-      response += line_instance.build
+      response += Line.build(input, letter_instance.next)
     end
 
     response
