@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
 class Board
-  def initialize(input_letter)
-    @input_letter = input_letter
-  end
-
-  def calculate_dimension
+  def self.calculate_dimension(input_letter)
     input_ascii_index = input_letter.ord - 'A'.ord
 
     return 1 if input_ascii_index.zero?

@@ -3,7 +3,7 @@
 class Diamond
   def build(input)
     letter_instance = Letter.new(input)
-    board_dimension = Board.new(input).calculate_dimension
+    board_dimension = Board.calculate_dimension(input)
     response = ''
 
     board_dimension.times do |_index|

@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
 RSpec.describe Board do
-  let(:instance) { described_class.new(input_letter) }
-
   describe '#calculate_dimension' do
-    subject { instance.calculate_dimension }
+    subject { described_class.calculate_dimension(input_letter) }
 
     context 'when input letter is an A' do
       let(:input_letter) { 'A' }
