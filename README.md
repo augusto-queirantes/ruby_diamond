@@ -24,6 +24,7 @@
   - [Board](#board)
   - [Line](#line)
   - [Letter](#letter)
+  - [Command Line](#command-line)
 
 ## Problem
 
@@ -144,9 +145,25 @@ Implementation:
 Implements only one public instance method that returns the next character
 
 Params:
-  - input: string containing the given inpu
+  - input: string containing the given input
 
 Implementation:
   method call: Letter.new.next
   output: A
+```
+
+### Command Line
+
+```
+Implements a method to print the diamond output on the terminal
+
+Params:
+  - input: string containing the given input, this param is obtained at the command line
+
+Implementation:
+  method call: ruby command_line.rb B
+  output:
+    _A_
+    B_B
+    _A_
 ```
