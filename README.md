@@ -15,6 +15,8 @@
 - [Problem](#problem)
 - [Examples](#examples)
 - [Setup](#setup)
+  - [Docker](#docker)
+  - [Local](#local)
 - [Usage](#usage)
 - [Code Documentation](#code-documentation)
   - [Diamond](#diamond)
@@ -60,14 +62,22 @@ Examples
 
 ## Setup
 
+### Docker
+
+1. Ensure you have docker installed
+2. `docker build -t ruby_diamond .`
+3. `docker run -it ruby_diamond bash`
+
+### Local
+
 1. Ensure you are using a compatible ruby version (>= 2.3.0)
 2. `git clone git@github.com:augusto-queirantes/ruby_diamond.git`
 3. `bundle install`
 
 ## Usage
 
-- `rspec` to run tests
-- `rubocop` to run linter
+- `bundle exec rspec` to run tests
+- `bundle exec rubocop` to run linter
 
 ## Code Documentation
 
